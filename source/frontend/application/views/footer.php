@@ -19,6 +19,7 @@
         </div>
     </div>
 </footer>
+
 <div class="overlay overlay-boxify">
     <nav>
         <ul>
@@ -30,16 +31,16 @@
         </ul>
     </nav>
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<!-- jQuery -->
+<script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+
 <script src="<?php echo base_url(); ?>source/frontend/assets/js/min/toucheffects-min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>source/frontend/assets/js/flickity.pkgd.min.js"></script>
 <script src="<?php echo base_url(); ?>source/frontend/assets/js/jquery.fancybox.pack.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo base_url(); ?>source/frontend/assets/js/retina.js"></script>
-<script src="<?php echo base_url(); ?>source/frontend/assets/js/waypoints.min.js"></script>
-<script src="<?php echo base_url(); ?>source/frontend/assets/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url(); ?>source/frontend/assets/js/min/scripts-min.js"></script>
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -49,5 +50,6 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X');ga('send','pageview');
 </script>
+
 </body>
 </html>

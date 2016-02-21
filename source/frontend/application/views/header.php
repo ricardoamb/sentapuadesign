@@ -11,17 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sentapua Design</title>
     <meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops by Peter Finlan" />
-    <meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
+    <meta name="keywords" content="desenvolvimento web, css3, one page, animations, agency, portfolio, web design" />
     <meta name="author" content="Peter Finlan" />
-    <!-- Bootstrap -->
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/flickity.css" rel="stylesheet" >
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/animate.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/styles.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>source/frontend/assets/css/queries.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/styles.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/queries.css" rel="stylesheet">
+
     <script src="<?php echo base_url(); ?>source/frontend/assets/js/modernizr.custom.js"></script>
 
     <!-- Facebook Integration -->
