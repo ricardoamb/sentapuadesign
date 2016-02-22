@@ -1,10 +1,15 @@
-<section class="video">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1><a href="http://www.youtube.com/embed/9No-FiEInLA?autoplay=1&wmode=opaque&fs=1" class="youtube-media"><i class="fa fa-play-circle-o"></i>Assista o vídeo</a></h1>
-            </div>
+<section class="about-pre">
+    <div id="video-container">
+        <div class="container video-content">
+            <h1>Teste</h1>
         </div>
+        <div class="foreground"></div>
+        <video autoplay muted loop class="fillWidth" poster="<?php echo base_url();?>assets/videos/productiveMorning.jpg">
+            <source src="<?php echo base_url();?>assets/videos/productiveMorning.mp4" type="video/mp4">
+            <source src="<?php echo base_url();?>assets/videos/productiveMorning.webm" type="video/webm">
+            <source src="<?php echo base_url();?>assets/videos/productiveMorning.ogv" type="video/ogg">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
     </div>
 </section>
 

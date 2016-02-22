@@ -12,7 +12,7 @@
             </div>
             <div class="row hero-content">
                 <div class="col-md-12">
-                    <h1 class="animated fadeInDown">Um estúdio diferente de tudo, feito para empresas se diferenciarem no mercado!</h1>
+                    <h1 class="animated fadeInDown">Um estúdio diferente de tudo que você já viu, pensado para empresas se diferenciarem no mercado!</h1>
                     <a class="learn-btn animated fadeInUp link" data-target="about">Saiba Mais <i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
