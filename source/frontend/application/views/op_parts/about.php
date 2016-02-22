@@ -1,7 +1,7 @@
 <section class="about-pre">
     <div id="video-container">
         <div class="container video-content">
-            <h1>Teste</h1>
+            <h1 class="wp5">Teste</h1>
         </div>
         <div class="foreground"></div>
         <video autoplay muted loop class="fillWidth" poster="<?php echo base_url();?>assets/videos/productiveMorning.jpg">
