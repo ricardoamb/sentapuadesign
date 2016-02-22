@@ -1,4 +1,4 @@
-<section class="video" id="about">
+<section class="video">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -8,14 +8,14 @@
     </div>
 </section>
 
-<section class="features-intro">
+<section class="features-intro" id="about">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 nopadding features-intro-img">
                 <div class="features-bg">
                     <div class="texture-overlay"></div>
                     <div class="features-img wp1">
-                        <img src="img/html5-logo.png" alt="HTML5 Logo">
+                        <img src="<?php echo base_url();?>assets/img/html5-logo.png" alt="HTML5 Logo">
                     </div>
                 </div>
             </div>

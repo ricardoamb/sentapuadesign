@@ -1,0 +1,101 @@
+/* ========================================================================== */
+/* OVERALL SETTINGS                                                           */
+/* ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary{display:block}
+audio, canvas, video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;height:0;}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html, button, input, select, textarea{font-family:'Nunito', sans-serif;}
+html, body{overflow-x:hidden;width:100%;/*height:100%*/}
+body{margin:0;font-family:'Nunito', sans-serif;}
+html, html a{text-shadow:1px 1px 1px rgba(0, 0, 0, 0.004);-webkit-font-smoothing: antialiased;}
+header{height:100%}
+.link{cursor:pointer;}
+.link-menu{cursor:pointer;}
+
+/* ========================================================================== */
+/* NAVIGATION / MENU ICON                                                     */
+/* ========================================================================== */
+
+.nav-toggle{position:absolute;top:0;right:15px;z-index:999999;padding:10px 35px 16px 0px;cursor:pointer;}
+.nav-toggle:focus{outline:none;}
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after{content:'';position:absolute;display:block;width:35px;height:5px;border-radius:0;background:#fff;cursor:pointer;}
+.nav-toggle span:before{top:-10px}
+.nav-toggle span:after{bottom: -10px}
+.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after{-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}
+.nav-toggle.active span{background-color:transparent}
+.nav-toggle.active span:before, .nav-toggle.active span:after{top:0}
+.nav-toggle.active span:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}
+.nav-toggle.active span:after{top: 10px;-webkit-transform:translateY(-10px)rotate(-45deg);-ms-transform: translateY(-10px) rotate(-45deg);transform:translateY(-10px) rotate(-45deg);}
+.navicon{position:relative;height:26px;}
+.navicon p{margin:3px 50px 0 0}
+.client-area-link{color:#FFF;padding:8px;text-decoration:none;border:1px solid white;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}
+.client-area-link:hover{border-color:#da0068;color:#da0068 !important;text-decoration:none;background:rgba(255,255,255,.8);-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}
+.client-area-link:visited{color:#FFF;}
+.client-area-link:focus{text-decoration:none !important;outline:none;}
+.navicon-fixed{position:fixed;top:59px;right:143px;}
+
+/* ========================================================================== */
+/* HERO SECTION                                                               */
+/* ========================================================================== */
+
+.hero {position:relative;padding:60px 0 60px 0;height:100%;background:rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;background-size:cover;color:#fff;}
+.hero h1{margin:100px 0 45px 0;font-weight: 300;font-size: 45px;}
+.hero h1 span {display: inline-block;color:#a1a9b0;}
+#home{width:100%;height:100%;}
+.hero{width:100%;height:100%;}
+header i{margin-left: 5px}
+
+/* ========================================================================== */
+/* MENU OVERLAY                                                               */
+/* ========================================================================== */
+
+.overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(52, 82, 113, 0.7);z-index:9998;}
+.overlay nav{position:relative;top:50%;height:60%;text-align:center;font-size:54px;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
+.overlay ul{position:relative;display:inline-block;margin:0 auto;padding:0;list-style:none;}
+.overlay ul li{display:block;float:left;margin-right:20px;}
+.overlay ul li:last-child{margin-right:0}
+.overlay ul li i{display:block;margin-bottom:10px;font-size:40px;}
+.overlay ul li a{display:block;padding:50px 0;min-width:190px;border:2px solid #fff;border-radius:0;background-color:#345271;color:#fff;text-transform:uppercase;font-weight:400;font-size:15px;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;text-decoration:none;}
+.overlay ul li a:hover, .overlay ul li a:focus{border-color:#da0068;color:#da0068;background:rgba(255,255,255,.8);}
+.overlay-boxify{visibility:hidden;opacity:0;-webkit-transition:opacity 0.2s,visibility 0s 0.5s;transition:opacity 0.5s, visibility 0s 0.5s;}
+.overlay-boxify.open{visibility:visible;opacity:1;-webkit-transition:opacity 0.5s;transition:opacity 0.5s;}
+.overlay-boxify nav ul li{opacity:0;-webkit-transform:translate3d(0, -80px, 0);transform:translate3d(0, -80px, 0);-webkit-transition:-webkit-transform 0.5s, opacity 0.5s;transition:transform 0.5s, opacity 0.5s;}
+.overlay-boxify.open nav ul:first-child li:first-child{-webkit-transition-delay:0.05s;transition-delay:0.05s;}
+.overlay-boxify.open nav ul:first-child li:nth-child(2){-webkit-transition-delay:0.1s;transition-delay: 0.1s;}
+.overlay-boxify.open nav ul:nth-child(2) li:first-child{-webkit-transition-delay:0.15s;transition-delay:0.15s;}
+.overlay-boxify.open nav ul:nth-child(2) li:nth-child(2){-webkit-transition-delay:0.2s;transition-delay:0.2s;}
+.overlay-boxify.open nav ul li{opacity:1;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+
+/* ========================================================================== */
+/* BUTTONS                                                                    */
+/* ========================================================================== */
+
+    /* learn-btn | download-btn */
+    .learn-btn, .download-btn{display:inline-block;padding:18px 46px;border:2px solid #fff;color:#fff;font-size:16px;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}
+    .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus{border-color:#da0068;color:#da0068;background:rgba(255,255,255,.8);text-decoration:none;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}
+
+/* ========================================================================== */
+/* ADJUST CLASSES                                                             */
+/* ========================================================================== */
+
+.spacer10{display: block;height:10px;}
+.spacer20{display: block;height:20px;}
+.spacer30{display: block;height:30px;}
+.spacer40{display: block;height:40px;}
+.spacer50{display: block;height:50px;}
+.spacer60{display: block;height:60px;}
+.spacer70{display: block;height:70px;}
+.spacer80{display: block;height:80px;}
+.spacer90{display: block;height:90px;}
+.spacer100{display: block;height:100px;}
+
+/* ========================================================================== */
+/* SCROLLBAR ADJUSTS                                                          */
+/* ========================================================================== */
+::-webkit-scrollbar{width:5px;background:rgba(0,0,0,0);}
+::-webkit-scrollbar-track{-webkit-box-shadow:none;-webkit-border-radius:0;border-radius:0;background: #345271;}
+::-webkit-scrollbar-thumb{-webkit-border-radius:0;border-radius:0;background:#FFF;}
+::-webkit-scrollbar-thumb:window-inactive{background: rgba(0,0,0,0);}
