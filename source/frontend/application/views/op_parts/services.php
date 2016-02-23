@@ -1,8 +1,13 @@
-<section class="features-list" id="features">
+<section class="features-list fillHeight" id="features">
+    <div class="secTitle">
+        <div class="container">
+            <h1 class="secTitleText pull-left"><i class="fa fa-flash"></i> O que fazemos... </a></h1>
+            <h1 class="pull-right"><a class="link" data-target="hero">Voltar <i class="fa fa-caret-square-o-up"></i></a></h1>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-
                 <div class="col-md-4 feature-1 wp2">
                     <div class="feature-icon">
                         <i class="fa fa-desktop"></i>
@@ -28,12 +33,11 @@
                         <i class="fa fa-heart"></i>
                     </div>
                     <div class="feature-content">
-                        <h1>Design de Interfaces</h1>
+                        <h1>Aplicativos Móveis</h1>
                         <p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
                         <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="spacer80"></div>
@@ -65,12 +69,11 @@
                         <i class="fa fa-heart"></i>
                     </div>
                     <div class="feature-content">
-                        <h1>Aplicativos Móveis</h1>
+                        <h1>Design de Interfaces</h1>
                         <p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
                         <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
-
             </div>
         </div>
 

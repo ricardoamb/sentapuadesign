@@ -1,5 +1,5 @@
 <header>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="texture-overlay"></div>
         <div class="container">
             <div class="row nav-wrapper">

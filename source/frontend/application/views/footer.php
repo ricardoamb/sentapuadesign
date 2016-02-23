@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 class="footer-logo">
-                    <img src="<?php echo base_url(); ?>source/frontend/assets/img/logo-blue.png" alt="Footer Logo Blue">
+                    <img src="<?php echo base_url(); ?>assets/img/logo-blue.png" alt="Footer Logo Blue">
                 </h1>
                 <p>© Sentapua Design 2016 - Desenvolvido por <a href="http://ricardoambdev.github.io" target="_blank">Ricardo Amb</a></p>
             </div>
@@ -26,6 +26,7 @@
         <ul>
             <li><a class="link-menu" data-target="about"><i class="fa fa-heart"></i>Sobre</a></li>
             <li><a class="link-menu" data-target="features"><i class="fa fa-flash"></i>Serviços</a></li>
+            <li><a class="link-menu" data-target="projects"><i class="fa fa-flash"></i>Projetos</a></li>
             <li><a class="link-menu" data-target="portfolio"><i class="fa fa-desktop"></i>Portfólio</a></li>
             <li><a class="link-menu" data-target="blog"><i class="fa fa-pencil"></i>Blog</a></li>
             <li><a class="link-menu" data-target="contact"><i class="fa fa-envelope"></i>Contato</a></li>
